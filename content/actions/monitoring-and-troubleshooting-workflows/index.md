@@ -8,7 +8,7 @@ redirect_from:
 versions:
   fpt: '*'
   ghes: '*'
-  ghae: '*'
+  ghec: '*'
 children:
   - /about-monitoring-and-troubleshooting
   - /using-the-visualization-graph
@@ -18,7 +18,6 @@ children:
   - /using-workflow-run-logs
   - /enabling-debug-logging
   - /notifications-for-workflow-runs
----
-{% data reusables.actions.enterprise-beta %}
+  - /viewing-github-actions-usage-metrics-for-your-organization
+--- 
 {% data reusables.actions.enterprise-github-hosted-runners %}
-{% data reusables.actions.ae-beta %}
